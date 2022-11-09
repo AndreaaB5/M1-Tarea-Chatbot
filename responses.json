@@ -1,0 +1,44 @@
+[
+  {
+    "response_type": "saludos",
+    "user_input": ["hola", "que tal?", "hey", "buen día"],
+    "bot_response": "Hola, buen día, en que puedo ayudarte?",
+    "required_words": []
+  },
+  {
+    "response_type": "despedida",
+    "user_input": ["hasta luego", "adios", "bye"],
+    "bot_response": "Hasta luego, que le vaya bien",
+    "required_words": []
+  },
+  {
+    "response_type": "articulos",
+    "user_input": ["articulos", "disponibles", "productos"],
+    "bot_response": "Tenemos ramos de rosas, tulipanes y girasoles",
+    "required_words": ["disponibles"]
+  },
+  {
+    "response_type": "precios",
+    "user_input": ["cuales", "son", "sus", "precios", "quiero", "saber", "los"],
+    "bot_response": "Las rosas cuestan $200 pesos, los tulipanes $300 pesos y los girasoles $400 pesos",
+    "required_words": ["precios"]
+  },
+  {
+    "response_type": "pago",
+    "user_input": ["aceptan", "pagos", "con", "tarjeta", "de", "credito", "debito"],
+    "bot_response": "Aceptamos pagos en efectivo en sucursal y con tarjeta para envio",
+    "required_words": ["aceptan"]
+  },
+  {
+    "response_type": "ubicacion",
+    "user_input": ["donde", "se", "ubican", "estan", "ubicados"],
+    "bot_response": "Estamos ubicados en Av. Heroico colgio Militar #4700, Chihuahua, Chih.",
+    "required_words": ["donde"]
+  },
+  {
+    "response_type": "Agradecimiento",
+    "user_input": ["muchas", "gracias"],
+    "bot_response": "De nada, fue un placer ayudarle",
+    "required_words": ["gracias"]
+  }
+]
